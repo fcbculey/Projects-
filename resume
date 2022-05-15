@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang "en">
+<head> 
+
+<meta charset ="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale =1.0">
+<title> Kuldeep Gautam </title>
+<!-- CUSTOM CSS -->
+<link rel="stylesheet" href="style.css">
+<!--FONTAWESOME JS -->
+<link rel="stylesheet" href="all.min.css"
+</head>
+<body>
+
+<div class="print-area">
+    <div class="header">
+        <img src="cool.jpeg">
+        <div class="header-text">
+        <h1> KULDEEP GAUTAM </h1>
+        <p> Software Engineer</p>
+        </div>
+    </div> 
+    
+    <div class= "content">
+        <div class="left-area">
+            <div class="contact">
+                <h1><u> CONTACT</u></h1>
+                <h5>Phone</h5>
+                <p>214 499 3889</p>
+                <h5> Email</h5>
+                <p>kuldeep.gtm10@gmail.com</p>
+                <h5>LinkedIn</h5>
+                <p> linkedin.com/in/kuldeep-gautam</p>
+            
+                
+            </div>
+            <div class ="skills">
+            <h1><u>SKILLS</u></h1>
+            <div class= "bars">
+               
+                <div class="bar">
+                    <p>C</p>
+                    <span></span>
+                </div>
+                <div class="bar">
+                    <p>C++</p>
+                    <span></span>
+            </div>
+                <div class="bar">
+                    <p>Python</p>
+                    <span></span>
+            
+                </div>
+                <div class="bar">
+                    <p>Java</p>
+                    <span></span>
+                </div>
+                <div class="bar">
+                    <p>JavaScript</p>
+                    <span></span>
+                </div>
+                <div class="bar">
+                    <p>SQL</p>
+                    <span></span>
+                </div>
+                    <div class="bar">
+                    <p>AWS</p>
+                    <span></span>
+                </div>
+                <div class="bar">
+                    <p>VScode</p>
+                    <span></span>
+                </div>
+                </div>
+            </div>
+    
+    <div class="education">
+        <h1><u>EDUCATION</u></h1>
+        <h5>East Central University</h5>
+        <p>2021 - Present</p>
+        <p>BS in Computer Science</p>
+        <h5>Texas Tech University</h5>
+        <p>2020 - 2021</p>
+        <p>BS in Computer Science</p>
+        <h5>Bunker Hill Community College</h5>
+        <p>2017 - 2019</p>
+        <p>Associate in Computer Science</p>
+    </div>
+        </div>
+    
+    
+    <div class="right-area">
+        <div class= "about">
+            <h1><span><u><i class="far fa-user"></i>OBJECTIVES</u></h1><br>
+            <P>Detail- oriented Software Engineer with a strong passion of exploring in design, implementation, and deliverance of Software and Web to secure efficiency and performance.</P>
+        </div>
+        
+        
+      <div class="right-area">
+        <div class= "work">
+            <h1><span><u><i class="fas fa-suitcase-rolling"></i>WORK EXPERIENCE</u></h1><br>
+            <div class="work-group">
+            <h3>Shivapuri Deco Solution Pvt. Ltd</h3>
+            <h4> Computer Operator</h4>
+            <span>2016 - 2017</span>
+            <p> ● Responded to support requests and assisted in troubleshooting. <br>
+                ● Ensure all software and hardware are up to date. <br>
+                ● Maintain system documentation for reference.<br> 
+                ● Trained junior staff.<br> </p>
+        </div>
+                 <div class="work-group">
+            <h3>Bits and Bytes Technology(Remote)</h3>
+            <h4> Project Manager/QA tester</h4>
+            <span>2020 - 2021</span>
+            <p> ● Contribute in project planning, preparing and maintaining documentation. <br>
+                ● Review contracts and financials. <br>
+                ● Monitor project activities and evaluate the overall projects. <br>
+                ● Track defects and develop test scripts using Java. <br>
+                ● Hire a new employee<br>  </p>
+        </div>
+        </div>
+        
+            </div>
+            </div>
+            
+          <button> PRINT CV</button>
+            
+  
+
+
+    
+   
+
+
+<!--FONTAWESOME JS -->
+<script src="all.min.js"></script>
+ <!-- CUSTOM JS -->
+<script>
+var btn = document.querySelector("button")
+btn.onclick=() =>
+    window.print();
+</script>
+</body>
+</html>
